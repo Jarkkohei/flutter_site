@@ -50,4 +50,11 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
+
+  void incrementEverySecond() {
+    Timer.periodic(Duration(seconds: 1), (timer) {
+      //print(timer.tick);
+      setState(() => _counter = timer.tick);
+    });
+  }
 }
