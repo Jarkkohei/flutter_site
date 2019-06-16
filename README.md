@@ -1,4 +1,4 @@
-# Hummingbird: Flutter On The Web -example
+# Hummingbird: Flutter On The Web -example (Timer)
 
 
 ## Prerequisites and Installing
