@@ -32,6 +32,12 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   @override
+  void initState() {
+    super.initState();
+    incrementEverySecond();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
